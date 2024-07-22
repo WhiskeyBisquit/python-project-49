@@ -13,5 +13,8 @@ publish:
 package-install:
 	python3 -m pip install --user dist/*.whl
 
+package-instal-to-venv: # install package to virtual environment
+	python3 -m pip install dist/*.whl
+
 lint:
 	poetry run flake8 brain_games
