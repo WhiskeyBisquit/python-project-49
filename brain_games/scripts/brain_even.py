@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from brain_games.cli import welcome_user
 from random import randint
-import prompt
+import prompt  # type: ignore
 
 
 RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
