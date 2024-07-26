@@ -3,12 +3,12 @@ from brain_games.engine import play_game
 from brain_games.games.even import description, is_even
 
 
-def start_game():
+def start_even():
     play_game(description, is_even)
 
 
 def main():
-    start_game()
+    start_even()
 
 
 if __name__ == '__main__':
