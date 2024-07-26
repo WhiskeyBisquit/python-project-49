@@ -25,5 +25,5 @@ def play_game(description, game):
             print(f'Congratulations, {name}!')
             return
 
-        print(question)
+        print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ').lower()
