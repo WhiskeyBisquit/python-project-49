@@ -4,13 +4,14 @@ import prompt  # type: ignore
 
 def play_game(description, game):
     score = 0
+    round_count = 3
     name = welcome_user()
     print(description)
     question, result = game()
-    print(f'Question: {question}')
-    user_answer = prompt.string('Your answer: ').lower()
 
-    while score < 3:
+    while score < round_count:
+        print(f'Question: {question}')
+        user_answer = prompt.string('Your answer: ').lower()
         if result == user_answer:
             print('Correct!')
             score += 1
@@ -18,13 +19,7 @@ def play_game(description, game):
             print(f"'{user_answer}' is wrong answer ;(. "
                   + f"Correct answer was '{result}'.")
             print(f"Let's try again, {name}!")
-            break
-
+            return
         question, result = game()
 
-        if score == 3:
-            print(f'Congratulations, {name}!')
-            return
-
-        print(f'Question: {question}')
-        user_answer = prompt.string('Your answer: ').lower()
+    print(f'Congratulations, {name}!')
