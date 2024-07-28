@@ -9,11 +9,11 @@
 
 ### List of games
 
-    - brain-calc. Arithmetic expressions that need to be evaluated;
-    - brain-progression. Finding missing numbers in a sequence of numbers;
-    - brain-even. Definition of an even number;
-    - brain-gcd. Determining the greatest common divisor;
-    - brain-prime. Definition of a prime number.
+- brain-calc. Arithmetic expressions that need to be evaluated;
+- brain-progression. Finding missing numbers in a sequence of numbers;
+- brain-even. Definition of an even number;
+- brain-gcd. Determining the greatest common divisor;
+- brain-prime. Definition of a prime number.
 
 ### Links
 
