@@ -19,9 +19,9 @@ pip install git+https://github.com/WhiskeyBisquit/python-project-49
 
 - **_brain-calc_**. Arithmetic expressions that need to be evaluated;
 - **_brain-progression_**. Finding missing numbers in a sequence of numbers;
-- **_brain-even_**. Definition of an even number;
+- **_brain-even_**. Determining of an even number;
 - **_brain-gcd_**. Determining the greatest common divisor;
-- **_brain-prime_**. Definition of a prime number.
+- **_brain-prime_**. Determining of a prime number.
 
 ### Usage
 
