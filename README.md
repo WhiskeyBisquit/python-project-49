@@ -7,6 +7,14 @@
 
 "**_Brain Games_**" is a package of five console games based on popular mobile apps for brain training. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and suggest you to play it again.
 
+### Install
+
+_Brain Games_ can be installed by running command below:
+
+```sh
+pip install git+https://github.com/WhiskeyBisquit/python-project-49
+```
+
 ### List of games
 
 - **_brain-calc_**. Arithmetic expressions that need to be evaluated;
@@ -14,6 +22,10 @@
 - **_brain-even_**. Definition of an even number;
 - **_brain-gcd_**. Determining the greatest common divisor;
 - **_brain-prime_**. Definition of a prime number.
+
+### Usage
+
+To start one of five games just run a command with name of the game: `brain-calc`, `brain-progression`, `brain-even`, `brain-gcd`, `brain-prime`.
 
 ### Links
 
