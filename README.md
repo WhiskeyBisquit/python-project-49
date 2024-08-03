@@ -39,4 +39,4 @@ This project was built using these tools:
 
 ### Gameplay example
 
-[![asciicast](https://asciinema.org/a/25opsAzSC4KWNpsZt8FB5Mf3L.svg)](https://asciinema.org/a/25opsAzSC4KWNpsZt8FB5Mf3L)
+[![asciicast](https://asciinema.org/a/670585.svg)](https://asciinema.org/a/670585)
